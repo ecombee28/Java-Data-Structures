@@ -13,14 +13,6 @@ public class ArrayListMain {
 		ArrayList<Integer> list = new ArrayList<Integer>();
 		
 		
-//		Random random = new Random();
-//		
-//		for(int i=0;i< 1000000;i++) {
-//			
-//		    int ttl = random.nextInt(392077);
-//			
-//			list.add(ttl);
-//		}
 		
 		list.add(34);
 		list.add(14);
