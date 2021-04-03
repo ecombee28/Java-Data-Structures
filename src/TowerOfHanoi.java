@@ -24,7 +24,7 @@ public class TowerOfHanoi {
     }
     public static void main(String[] args) {
 
-        int nDisk = 4;
+        int nDisk = 3;
 
         String stepsToSolution = hanoi(nDisk, 1, 3);
 

@@ -1,4 +1,4 @@
-import java.lang.reflect.Array;
+
 import java.time.ZonedDateTime;
 import java.util.Arrays;
 
@@ -6,12 +6,12 @@ public class Main{
 
     public static void main(String[] args) {
 
-        int[] arr = generateRandomArray(10);
-        int[] arr1 = generateRandomArray(10);
-        int[] arr2 = generateRandomArray(10);
-        int[] arr3 = generateRandomArray(10);
-        int[] arr4 = generateRandomArray(10);
-        int[] arr5 = generateRandomArray(10);
+        int[] arr = generateRandomArray(1000);
+        int[] arr1 = generateRandomArray(1000);
+        int[] arr2 = generateRandomArray(1000);
+        int[] arr3 = generateRandomArray(5000);
+        int[] arr4 = generateRandomArray(5000);
+        int[] arr5 = generateRandomArray(5000);
         int start, stop;
 
 
@@ -80,7 +80,7 @@ public class Main{
         int[] arr = new int[size];
 
         for(int i=0;i< size;i++){
-            int random = (int) (Math.random()*100) + 1;
+            int random = (int) (Math.random()*700) + 1;
             arr[i] = random;
         }
 
